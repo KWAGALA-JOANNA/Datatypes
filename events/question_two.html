@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function showSomething(){
+            document.getElementById('name')
+            console.log(showSomething)
+        }
+    </script>
+</head>
+<body>
+    <!-- Make a html text input which logs the value when the input is changing. -->
+    <label for="text">Enter Name</label><br>
+    <input type="text" onchange="showSomething()"  name="name" id="name" value="">
+    <button>Submit</button>
+</body>
+</html>
